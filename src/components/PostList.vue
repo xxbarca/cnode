@@ -79,7 +79,7 @@ export default {
         });
     },
     renderList(page) {
-      this.isLoading = true;  
+      // this.isLoading = true;  
       this.postpage = page
       this.getData()
     }
